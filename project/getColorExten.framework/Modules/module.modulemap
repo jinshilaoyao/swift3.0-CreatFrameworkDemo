@@ -1,0 +1,10 @@
+framework module getColorExten {
+  umbrella header "getColorExten.h"
+
+  export *
+  module * { export * }
+}
+
+module getColorExten.Swift {
+    header "getColorExten-Swift.h"
+}
